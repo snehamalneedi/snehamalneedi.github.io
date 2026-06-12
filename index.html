@@ -10,63 +10,65 @@
 
 <body>
     <div class="main">
-        <div class="header">
-            <!-- Header content -->
-        </div>
+        <div class="header"> <!-- Header content --> </div>
         <div class="flexbox">
             <div class="left-panel">
                 <div class="info-section">
-                    <img src="img/sm.png" alt="Sneha Malneedi" class="center"> <!-- Name -->
-                    <img src="img/pic.png" alt="Sneha Malneedi" class="center"
-                        style="width: 80%; min-width: 330px;"><!-- Picture -->
-                    <div class="subhead">
-                        <br>
-                        Developer, Screenwriter, and Filmmaker
-                    </div>
+                    <img src="img/sm.png" alt="Sneha Malneedi" class="center">
+                    <img src="img/pic.png" alt="Sneha Malneedi" class="center" style="width: 80%; min-width: 330px;">
+                    <div class="subhead"><br> Editor, Filmmaker, and Graphic Designer </div>
                     <div class="add-info">
-                        <br>
-                        she/her
-                        <br>
-                        <br>
-                        BS Computer Science @ Georgia Institute of Technology, Threads in Media and Information
-                        Internetworks
-                        <br>
-                        <br>
-                        Former External Vice President of Buzz Studios Filmmaking Club @ Georgia Tech
-                        <br>
-                        <br>
+                        <br> she/her <br> <br>
+                        BS Computer Science @ Georgia Institute of Technology,
+                        Threads in Media and Information Internetworks <br> <br>
+                        Former External Vice President of Buzz Studios Filmmaking Club @ Georgia Tech <br> <br>
+                        Proficiency with Adobe Premiere Pro, DaVinci Resolve, and CapCut Pro <br> <br>
                     </div>
                 </div>
                 <div class="icons">
                     <a href="mailto:smalneedi1@gmail.com">
-                    <img src="icons/email.png" alt="Email Link"
-                        style="width: 40px; padding: 10px;">
+                        <img src="icons/email.png" alt="Email Link" style="width: 40px; padding: 10px;">
                     </a>
                     <a href="https://www.linkedin.com/in/sneha-malneedi-a354011a1/">
-                    <img src="icons/linkedin.png" alt="Linkedin Link" 
-                        style="width: 40px; padding: 10px;">
+                        <img src="icons/linkedin.png" alt="Linkedin Link" style="width: 40px; padding: 10px;">
                     </a>
-                </div> 
-            </div>
-            <div class="right-panel">
-                <div class="film-projects">
-                    <div class="fp-title">
-                        Film Projects
-                    </div>
-                    <br>
-                    <div class="film-desc">
-                        These projects are the culmination of work over three years during my time with Buzz Studios Filmmaking Club at Georgia Tech. For access codes, please email smalneedi1@gmail.com.
-                        <br></br>
-                        <br></br>
-                    </div>
-                    <div id="films-list"></div>
-                    <script src="films.js"></script>
                 </div>
             </div>
+
+            <div class="right-panel">
+                <!-- FILM PROJECTS -->
+                <div class="portfolio-section collapsed">
+                    <div class="fp-title"> Film Projects </div>
+                    <div class="film-desc">
+                        <br> These projects are the culmination of work over three years during my
+                        time with Buzz Studios Filmmaking Club at Georgia Tech. For access codes, please email
+                        smalneedi1@gmail.com.
+                        <br><br>
+                    </div>
+                    <div class="section-content">
+                        <div id="films-list"></div>
+                    </div>
+                    <button class="toggle-btn"> See More ↓ </button>
+                </div>
+
+                <!-- EDITING WORKS -->
+                <div class="portfolio-section collapsed">
+                    <div class="fp-title"> Published Professional Editing Works </div>
+                    <div class="film-desc">
+                        <br> These works are freelance editing works I've worked on for various clients who work with social media, spanning a spectrum between marketing and influencer content.
+                        <br><br>
+                    </div>
+                    <div class="section-content">
+                        <div id="editing-featured"></div>
+                        <div id="editing-list"></div>
+                    </div>
+                    <button class="toggle-btn"> See More ↓ </button>
+                </div>
+
+                <script src="films.js"></script>
+            </div>
         </div>
-        <div class="footer">
-            <!-- Footer content -->
-        </div>
+        <div class="footer"> <!-- Footer content --> </div>
     </div>
 </body>
 
