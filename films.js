@@ -17,7 +17,7 @@ const jsonData = [
         "description": "A character piece depicting the consequences of constantly seeking meaning in life.",
         "url": "https://films.buzzstudios.org/anighttoremember",
         "access-contact": false,
-        "poster": "posters/antr.png"
+        "poster": "posters/ANTR.png"
     },
     {
         "title": "Murder is a Party Pooper (2024)",
